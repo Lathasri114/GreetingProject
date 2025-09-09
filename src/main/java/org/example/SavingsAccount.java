@@ -15,7 +15,7 @@ public class SavingsAccount
         if(balance>=amount)
         {
             balance-=amount;
-            balance-=1;
+            //balance-=1;
             System.out.println(amount + " rs have been withdrawn successfully");
         }
         else {
